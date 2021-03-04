@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Pompadur;
+  src: url(../fonts/Pompadur.ttf);
+}
+@font-face {
+  font-family: Diploma;
+  src: url(../fonts/Diploma.ttf);
+}
+@font-face {
+  font-family: Aqum;
+  src: url(../fonts/Aqum.ttf);
+}
+@font-face {
+  font-family: "Antipasto Pro";
+  src: url(../fonts/AntipastoPro-Regular.ttf);
+}
+@font-face {
+  font-family: 'Averta Demo PE';
+  src: url('../fonts/AvertaDemoPE-Regular.eot');
+  src: local('Averta Demo PE Regular'), local('AvertaDemoPE-Regular'),
+  url('../fonts/AvertaDemoPE-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AvertaDemoPE-Regular.woff2') format('woff2'),
+  url('../fonts/AvertaDemoPE-Regular.woff') format('woff'),
+  url('../fonts/AvertaDemoPE-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Averta Demo PE';
+  src: url('../fonts/AvertaDemoPE-ExtraboldItalic.eot');
+  src: local('Averta Demo PE Extrabold Italic'), local('AvertaDemoPE-ExtraboldItalic'),
+  url('../fonts/AvertaDemoPE-ExtraboldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/AvertaDemoPE-ExtraboldItalic.woff2') format('woff2'),
+  url('../fonts/AvertaDemoPE-ExtraboldItalic.woff') format('woff'),
+  url('../fonts/AvertaDemoPE-ExtraboldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
