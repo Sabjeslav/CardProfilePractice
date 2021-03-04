@@ -5,15 +5,17 @@
 }
 
 body {
-  background: url('https://images4.alphacoders.com/982/thumb-1920-982990.jpg') center center/cover no-repeat;
+  background: url("https://images4.alphacoders.com/982/thumb-1920-982990.jpg")
+    center center/cover no-repeat;
 }
 
 .card-field {
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .card-container {
@@ -33,7 +35,7 @@ body {
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid #77797a;
-  box-shadow: 0px 0px 10px 2px rgba(0,238,255,1);
+  box-shadow: 0px 0px 10px 2px rgba(0, 238, 255, 1);
   margin-top: calc(var(--img-size) / -2);
   margin-bottom: 20px;
 }
@@ -50,7 +52,8 @@ body {
   width: 80%;
 }
 
-.name, .status {
+.name,
+.status {
   margin-bottom: 5px;
 }
 
@@ -79,14 +82,14 @@ body {
 
 .people {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-top: 10px;
 }
 
 .subscriber {
   --img-size: 40px;
-  border-radius:50%;
+  border-radius: 50%;
   overflow: hidden;
   width: var(--img-size);
   height: var(--img-size);
@@ -98,8 +101,12 @@ body {
   width: 100%;
 }
 
+.subscriber + .subscriber {
+  margin-left: 5px;
+}
+
 .subscriber:last-child::before {
-  content: '';
+  content: "";
   display: block;
   width: var(--img-size);
   height: var(--img-size);
@@ -109,7 +116,7 @@ body {
 }
 
 .subscriber:last-child::after {
-  content: '';
+  content: "";
   width: var(--img-size);
   height: var(--img-size);
   position: absolute;
@@ -136,4 +143,3 @@ body {
   margin-left: 5px;
   padding-left: 5px;
 }
-
