@@ -79,7 +79,7 @@ body {
 
 .people {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 10px;
 }
@@ -90,9 +90,7 @@ body {
   overflow: hidden;
   width: var(--img-size);
   height: var(--img-size);
-  margin-right: 5px;
 }
-
 
 .subscriber > img {
   object-fit: cover;
